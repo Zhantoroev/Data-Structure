@@ -1,15 +1,15 @@
 import {Card,Button} from 'react-bootstrap';
 
-const CardPage = ({img, title, text, onRouteChange}) =>{
+const CardPage = ({img, title, text, button, onRouteChange}) =>{
   return (
-      <Card style={{ margin: '10px', width: '18rem' }}>
+      <Card style={{ display:'inline-block', margin: '10px', width: '18rem' }}>
         <Card.Img variant="top" src={img}/>
         <Card.Body>
           <Card.Title>{title}</Card.Title>
-          <Card.Text>
+          <Card.Text style={{height: '80px', overflow: 'hidden'}}>
             {text}
           </Card.Text>
-          <Button variant="primary" onClick={()=>onRouteChange('title')}>Go inside</Button>
+          <Button variant={button} onClick={()=>onRouteChange('title')}>Go inside</Button>
         </Card.Body>
       </Card> 
   )
