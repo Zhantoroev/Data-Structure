@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navigation from './components/Navigation';
 import Main from './components/Main';
 import About from './components/About';
+import Footer from './components/Footer';
 
 class App extends Component{
   constructor() {
@@ -28,6 +29,7 @@ class App extends Component{
               ? <About />
               : <h1>Hello</h1>
         }
+        <Footer />
       </div>
     );
   }
