@@ -219,6 +219,9 @@ Elements present in stack : 20 10
 **Cons:** Requires extra memory due to involvement of pointers.
 
 
+
+-----------------------------------------------------------------------------------------------------------------
+
 # Queue
 
 Queue is a linear data structure which follows a particular order in which the operations are performed. The order is **F**irst **I**n **F**irst **O**ut (FIFO). A good example of queue is any queue of consumers for a resource where the consumer that came first is served first.
