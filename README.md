@@ -5,7 +5,6 @@ If we make an analogy with real life, Stack is similar to plates stacked over on
 
 ![StackImg](https://cdn.programiz.com/sites/tutorial2program/files/stack.png)
 
-If we make an analogy with real life, Stack is similar to plates stacked over one another in the kitchen. The plate which is at the top is the first one to be removed, the plate which has been placed at the bottommost position remains in the stack for the longest period of time.
 
 ## Basic Operations
 
