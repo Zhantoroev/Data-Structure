@@ -1,6 +1,7 @@
 # Data-Structure
 # Stack
 Stack is a linear data structure which follows a particular order in which the operations are performed. The order may be LIFO(Last In First Out) or FILO(First In Last Out).
+If we make an analogy with real life, Stack is similar to plates stacked over one another in the kitchen. The plate which is at the top is the first one to be removed, the plate which has been placed at the bottommost position remains in the stack for the longest period of time.
 
 ![StackImg](https://cdn.programiz.com/sites/tutorial2program/files/stack.png)
 
