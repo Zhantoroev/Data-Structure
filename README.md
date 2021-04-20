@@ -41,7 +41,7 @@ There are two ways to implement a stack:
 -   Using array
 -   Using linked list
 
-#### Implementing Stack using Array 
+### Implementing Stack using Array 
 *Java language*
 ```java
 /* Java program to implement basic stack
@@ -125,7 +125,7 @@ Elements present in stack : 20 10
 **Pros:** Easy to implement. Memory is saved as pointers are not involved.  
 **Cons:** It is not dynamic. It doesn’t grow and shrink depending on needs at runtime.
 
-#### Implementing Stack using Linked List:
+### Implementing Stack using Linked List:
 *Java language*
 ```java 
 // Java Code for Linked List Implementation
