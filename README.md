@@ -8,7 +8,7 @@ If we make an analogy with real life, Stack is similar to plates stacked over on
 
 ## Basic Operations
 
-|Methods  |Time Complexity  |
+|Operations  |Time Complexity  |
 |--|--|
 |push()| O(1)|
 |pop() | O(1)|
