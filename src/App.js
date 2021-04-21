@@ -2,8 +2,8 @@ import { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navigation from './components/Navigation';
 import Main from './components/Main';
-import About from './components/About';
-import Footer from './components/Footer';
+import About from './components/About'
+import Route from './components/Route'
 
 class App extends Component{
   constructor() {
@@ -18,18 +18,16 @@ class App extends Component{
   }
 
   render() {
+    const route = this.state.route
     return (
       <div className="App">
         <Navigation onRouteChange={this.onRouteChange}/>
-        {this.state.route === 'all'
-          ? <Main onRouteChange={this.onRouteChange}/>
-            : this.state.route === 'home'
-            ? <h1>Home</h1> 
-              : this.state.route === 'about'
-              ? <About />
-              : <h1>Hello</h1>
+        {
+          route === 'all' ? <Main onRouteChange={this.onRouteChange} route={route}/>
+            : route === 'home' ? <h1>Home</h1> 
+            : this.state.route === 'about' ? <About />
+            : <Route route={route} onRouteChange={this.onRouteChange}/>
         }
-        <Footer />
       </div>
     );
   }
