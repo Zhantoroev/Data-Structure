@@ -3,6 +3,8 @@ import { Button} from 'react-bootstrap';
 import Stack from './TopicPages/Stack';
 import Array from './TopicPages/Array';
 import Queue from './TopicPages/Queue';
+import BinaryTree from './TopicPages/BinaryTree';
+import HashTable from './TopicPages/HashTable';
 
 class Route extends Component {
   constructor(props) {
@@ -30,6 +32,8 @@ class Route extends Component {
           : this.props.route === 'Stack' ? <Stack />
           : this.props.route === 'Array' ? <Array />
           : this.props.route === 'Queue' ? <Queue />
+          : this.props.route === 'Binary Tree' ? <BinaryTree />
+          : this.props.route === 'Hash Table' ? <HashTable />
           : <h1>404</h1>
         }
       </>
