@@ -25,38 +25,37 @@
 
 ## Types of Binary Tree
 ### Full Binary Tree
-
 A full Binary tree is a special type of binary tree in which every parent node/internal node has either two or no children.
+
 ![enter image description here](https://cdn.programiz.com/sites/tutorial2program/files/full-binary-tree_0.png)
 
 ### Perfect Binary Tree
-
 A perfect binary tree is a type of binary tree in which every internal node has exactly two child nodes and all the leaf nodes are at the same level.
+
 ![enter image description here](https://cdn.programiz.com/sites/tutorial2program/files/perfect-binary-tree_0.png)
 
 ### Complete Binary Tree
-
 A complete binary tree is just like a full binary tree, but with two major differences
 
 1.  Every level must be completely filled
 2.  All the leaf elements must lean towards the left.
 3.  The last leaf element might not have a right sibling i.e. a complete binary tree doesn't have to be a full binary tree.
+
 ![enter image description here](https://cdn.programiz.com/sites/tutorial2program/files/complete-binary-tree_0.png)
 
 ### Degenerate or Pathological Tree
-
 A degenerate or pathological tree is the tree having a single child either left or right.
+
 ![enter image description here](https://cdn.programiz.com/sites/tutorial2program/files/degenerate-binary-tree_0.png)
 
 ### Skewed Binary Tree
-
 A skewed binary tree is a pathological/degenerate tree in which the tree is either dominated by the left nodes or the right nodes. Thus, there are two types of skewed binary tree:  **left-skewed binary tree**  and  **right-skewed binary tree**.
 
 ![enter image description here](https://cdn.programiz.com/sites/tutorial2program/files/skewed-binary-tree_0.png)
 
 ### Balanced Binary Tree
-
 It is a type of binary tree in which the difference between the height of the left and the right subtree for each node is either 0 or 1.
+
 ![enter image description here](https://cdn.programiz.com/sites/tutorial2program/files/height-balanced_1.png)
 
 Here is the example of **unbalanced binary tree**
