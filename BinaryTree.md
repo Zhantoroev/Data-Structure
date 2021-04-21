@@ -58,7 +58,7 @@ It is a type of binary tree in which the difference between the height of the le
 
 ![enter image description here](https://cdn.programiz.com/sites/tutorial2program/files/height-balanced_1.png)
 
-Here is the example of **unbalanced binary tree**
+#### Here is the example of **unbalanced binary tree**
 
 ![enter image description here](https://cdn.programiz.com/sites/tutorial2program/files/unbalanced-binary-tree.png)
 
