@@ -30,7 +30,8 @@ A full Binary tree is a special type of binary tree in which every parent node/i
 
 ### Perfect Binary Tree
 
-A perfect binary tree is a type of binary tree in which every internal node has exactly two child nodes and all the leaf nodes are at the same level.![enter image description here](https://cdn.programiz.com/sites/tutorial2program/files/perfect-binary-tree_0.png)
+A perfect binary tree is a type of binary tree in which every internal node has exactly two child nodes and all the leaf nodes are at the same level.
+![enter image description here](https://cdn.programiz.com/sites/tutorial2program/files/perfect-binary-tree_0.png)
 
 ### Complete Binary Tree
 
