@@ -3,11 +3,11 @@ const Queue = () => {
     <div style={{width: '700px', margin:'50px auto'}}>
       <h1 id="queue">Queue</h1>
       <p>Queue is a linear data structure which follows a particular order in which the operations are performed. The order is <strong>F</strong>irst <strong>I</strong>n <strong>F</strong>irst <strong>O</strong>ut (FIFO). A good example of queue is any queue of consumers for a resource where the consumer that came first is served first.</p>
-      <img src="queueq.png" alt="QueueImg" 
-        //style={{border : "1px solid black", height:'400px', width:'100%', marginBottom:'30px'}} 
+      <img src="https://raw.githubusercontent.com/Zhantoroev/Data-Structure/main/src/assets/queue1.png" alt="QueueImg" 
+        style={{ width:'80%', margin:'30px'}} 
         /><br />
-      <img src="queue2.png" alt="QueueImg" 
-        //style={{border : "1px solid black", height:'400px', width:'100%', marginBottom:'30px'}} 
+      <img src="https://raw.githubusercontent.com/Zhantoroev/Data-Structure/main/src/assets/queue2.png" alt="QueueImg" 
+        style={{ marginBottom:'30px'}}  
         />
         
       <h2 id="working-of-queue">Working of Queue</h2>

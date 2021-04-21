@@ -6,7 +6,7 @@ function Navigation({onRouteChange}) {
       <Navbar bg="primary" variant="dark">
         <Navbar.Brand onClick={()=>onRouteChange('home')}>Home</Navbar.Brand>
         <Nav className="mr-auto">
-          <Nav.Link onClick={()=>onRouteChange('about')} >About</Nav.Link>
+          <Nav.Link onClick={()=>onRouteChange('about')} >About Us</Nav.Link>
           <Nav.Link onClick={()=>onRouteChange('all')} >Аll Topics</Nav.Link>
         </Nav>
         <Form inline>

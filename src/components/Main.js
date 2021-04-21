@@ -1,14 +1,14 @@
 import Card from './CardPage';
 
 const cardElements = [
-  ['https://picsum.photos/200/100', 'Array', 'Array is a data structure used to store homogeneous elements at contiguous locations'],
-  ['https://picsum.photos/200/100', 'Linked List', "A linked list is a linear data structure (like arrays) where each element is a separate object..."],
-  ['https://picsum.photos/200/100', "Stack", "A stack or LIFO (last in, first out) is an abstract data type that serves as a collection of elements..."],
-  ['https://picsum.photos/200/100', "Queue", "A queue or FIFO (first in, first out) is an abstract data type that serves as a collection of elements..."],
-  ['https://picsum.photos/200/100', "Binary Tree", "A tree whose elements have at most 2 children is called a binary tree"],
-  ['https://picsum.photos/200/100', "Graph", "Binary Search Tree is a node-based binary tree data structure"],
-  ['https://picsum.photos/200/100', "Heap", "A Heap is a special Tree-based data structure in which the tree is a complete binary tree..."],
-  ['https://picsum.photos/200/100', "Hash Table", "Hashing is a technique or process of mapping keys, values into the hash table by using a hash function"],
+  ['https://i.ytimg.com/vi/d3CeUYe7DHU/maxresdefault.jpg', 'Array', 'an array stores a fixed-size sequential collection of elements of the same type'],
+  ['https://miro.medium.com/max/527/1*pYLk9Y4iKP0kjmlfVaIbPA.png', 'Linked List', "In a linked list is a linear data structure, elements are not stored at contiguous memory"],
+  ['https://holycoders.com/content/images/2020/06/Stack.png', "Stack", "A stack or LIFO (last in, first out) is an abstract data type that serves as a collection of"],
+  ['https://miro.medium.com/max/2110/0*-DqxfgZhXwZ6w208.png', "Queue", "A queue or FIFO (first in, first out) is an abstract data type that serves as a collection of"],
+  ['https://media.geeksforgeeks.org/wp-content/cdn-uploads/binary-tree-to-DLL.png', "Binary Tree", "A tree whose elements have at most 2 children is called a binary tree"],
+  ['https://algorist.com/images/figures/graph-data-structures-L.png', "Graph", "A Graph is a non-linear data structure consisting of nodes and edges"],
+  ['https://raw.githubusercontent.com/Zhantoroev/Data-Structure/main/src/assets/heaps.png', "Heap", "A Heap is a special Tree-based data structure in which the tree is a complete binary tree"],
+  ['https://www.algolist.net/img/hash-table-chaining.png', "Hash Table", "Hash Table is a data structure which stores data in an associative manner"],
 ];
 
 const btnType = [
@@ -17,7 +17,7 @@ const btnType = [
 
 function Main({onRouteChange}) {
     return (
-      <div style={{display: 'flex', flexWrap: 'wrap', justifyContent:'center', padding:'50px'}}>
+      <div style={{display: 'flex', flexWrap: 'wrap', justifyContent:'center', padding:'70px'}}>
         {CreateCard(onRouteChange)}
       </div>
     )

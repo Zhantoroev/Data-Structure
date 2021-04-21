@@ -6,7 +6,7 @@ const Array = () => {
     
       <h3>Creating</h3>
       <p>The type and the name are the two parts of an array declaration. Type specifies the array's element type. The data type of each element in the array is determined by the element type. We can generate a variety of data types, both primitive and non-primitive. As a result, the array's element type decides the type of data it may hold.</p>
-      <div style={{width:'100%', background:'grey', padding: '20px', margin:'30px', color:'white', fontWeight:"700"}}>
+      <div style={{width:'100%', background:'black', padding: '20px', margin:'30px', color:'white', fontWeight:"700"}}>
         <p>type arrayName[] <br/>
           or <br/>
           type[] arrayName;</p>
@@ -16,7 +16,7 @@ const Array = () => {
       <p>When an array is declared, only a reference of an array is created. To actually create or give memory to an array, you create an array like this: The general form of new as it applies to one-dimensional arrays appears as follows: 
         var-name = new type [size];
         Here, type specifies the type of data being allocated, size specifies the number of elements in the array, and var-name is the name of the array variable that is linked to the array. That is, to use new to allocate an array, you must specify the type and number of elements to allocate.</p>
-        <div style={{width:'100%', background:'grey', padding: '20px', margin:'30px', color:'white', fontWeight:"700"}}>
+        <div style={{width:'100%', background:'black', padding: '20px', margin:'30px', color:'white', fontWeight:"700"}}>
           <p>arrayName = new type [size];</p>
         </div>
       <p>Default array values in Java will automatically be initialized to zero (for numeric types), false (for boolean), or null (for reference types)</p>
@@ -40,18 +40,16 @@ const Array = () => {
       </ul>
       <p>Elements in Array are referenced by their index. There is no other way to access elements in an array. Array indexing is zero-based</p>
 
-      <img src="../../assets/time.png" alt='no'></img>
-
+      <img src="https://raw.githubusercontent.com/Zhantoroev/Data-Structure/main/src/assets/staticArray.gif" alt='no'></img>
 
       <h3>Dynamic Arrays</h3>
       <p>The dynamic array can grow and shrink in size</p>
-      <img src="" alt="dinamic" ></img>
+      <img src="https://raw.githubusercontent.com/Zhantoroev/Data-Structure/main/src/assets/dinamic.png" alt="dinamic" ></img>
 
       <h3>Time complexity</h3>
-      <img src="" alt="time" ></img>
+      <img src="https://raw.githubusercontent.com/Zhantoroev/Data-Structure/main/src/assets/time.png" alt="time" ></img>
     </div>
   )
-  
 }
 
 export default Array;
