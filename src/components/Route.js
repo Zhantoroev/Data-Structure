@@ -34,14 +34,14 @@ class Route extends Component {
           >🡸Back</Button>
       </div>
         {
-            this.props.route === 'Stack' ? <Stack />
-          : this.props.route === 'Array' ? <Array />
-          : this.props.route === 'Queue' ? <Queue />
-          : this.props.route === 'Binary Tree' ? <BinaryTree />
-          : this.props.route === 'Hash Table' ? <HashTable />
-          : this.props.route === 'Linked List' ? <LinkedList />
-          : this.props.route === 'Heap' ? <Heap />
-          : this.props.route === 'Graph' ? <Graph />
+            this.props.route === 'Stack' || this.props.route === 'stack' ? <Stack />
+          : this.props.route === 'Array' || this.props.route === 'array' ? <Array />
+          : this.props.route === 'Queue' || this.props.route === 'queue' ? <Queue />
+          : this.props.route === 'Binary Tree' || this.props.route === 'binary tree' ? <BinaryTree />
+          : this.props.route === 'Hash Table' || this.props.route === 'hash table' ? <HashTable />
+          : this.props.route === 'Linked List' || this.props.route === 'linked list' ? <LinkedList />
+          : this.props.route === 'Heap' || this.props.route === 'heap' ? <Heap />
+          : this.props.route === 'Graph' || this.props.route === 'graph' ? <Graph />
           : <Error />
         }
       </>
