@@ -6,6 +6,9 @@ import Queue from './TopicPages/Queue';
 import BinaryTree from './TopicPages/BinaryTree';
 import HashTable from './TopicPages/HashTable';
 import LinkedList from './TopicPages/LinkedList';
+import Heap from './TopicPages/Heap';
+import Graph from './TopicPages/Graph';
+import Error from './TopicPages/Error';
 
 class Route extends Component {
   constructor(props) {
@@ -25,18 +28,21 @@ class Route extends Component {
   render() {
     return (
       <>
-      <Button variant="light" style={{position:'absolute', margin:'50px'}}
-        onClick={()=>this.props.onRouteChange('all')}
-        >Back</Button>
+      <div style={{position:'sticky', top:'50px'}}>
+        <Button variant="secondary" style={{position:'absolute', margin:'50px',color: 'white', zIndex:'2'}}
+          onClick={()=>this.props.onRouteChange('all')}
+          >🡸Back</Button>
+      </div>
         {
-          this.props.route === 'a' ? <h1>hello</h1>
-          : this.props.route === 'Stack' ? <Stack />
+            this.props.route === 'Stack' ? <Stack />
           : this.props.route === 'Array' ? <Array />
           : this.props.route === 'Queue' ? <Queue />
           : this.props.route === 'Binary Tree' ? <BinaryTree />
           : this.props.route === 'Hash Table' ? <HashTable />
           : this.props.route === 'Linked List' ? <LinkedList />
-          : <h1>404</h1>
+          : this.props.route === 'Heap' ? <Heap />
+          : this.props.route === 'Graph' ? <Graph />
+          : <Error />
         }
       </>
     )

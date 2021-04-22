@@ -13,7 +13,7 @@ const cardElements = [
 
 const btnType = [
   "outline-primary", "outline-secondary", "outline-success", "outline-warning",
-  "outline-danger", "outline-info", "outline-dark, outline-white"]
+  "outline-danger", "outline-info", "outline-light", "outline-dark"]
 
 function AllCards({onRouteChange}) {
     return (
@@ -25,7 +25,7 @@ function AllCards({onRouteChange}) {
 
 function CreateCard(onRouteChange) {
   return cardElements.map((item, i) => {
-    return <Card img={item[0]} title={item[1]} text={item[2]} button={btnType[i]} onRouteChange={onRouteChange} /> 
+    return <Card key={i} img={item[0]} title={item[1]} text={item[2]} button={btnType[i]} onRouteChange={onRouteChange} /> 
   })
 }
 

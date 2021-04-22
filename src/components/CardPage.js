@@ -9,7 +9,8 @@ const CardPage = ({img, title, text, button, onRouteChange}) =>{
           <Card.Text style={{height: '80px', overflow: 'hidden'}}>
             {text}
           </Card.Text>
-          <Button variant={button} onClick={()=>onRouteChange(title)}>Go inside</Button>
+          <Button variant={button}
+            onClick={()=>onRouteChange(title)}>Go inside</Button>
         </Card.Body>
       </Card> 
   )
