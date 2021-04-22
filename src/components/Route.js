@@ -5,6 +5,7 @@ import Array from './TopicPages/Array';
 import Queue from './TopicPages/Queue';
 import BinaryTree from './TopicPages/BinaryTree';
 import HashTable from './TopicPages/HashTable';
+import LinkedList from './TopicPages/LinkedList';
 
 class Route extends Component {
   constructor(props) {
@@ -34,6 +35,7 @@ class Route extends Component {
           : this.props.route === 'Queue' ? <Queue />
           : this.props.route === 'Binary Tree' ? <BinaryTree />
           : this.props.route === 'Hash Table' ? <HashTable />
+          : this.props.route === 'Linked List' ? <LinkedList />
           : <h1>404</h1>
         }
       </>

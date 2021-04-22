@@ -1,7 +1,9 @@
+import { Table } from 'react-bootstrap';
+
 function HashTable() {
   return (
-    <div style={{width: '700px', margin:'50px auto'}}>
-      <h1 style={{fontWeight: '700', margin:'20px 0 40px 0'}}>Hash Table</h1>
+    <div className='contentPage'>
+      <h1 className="mainTitle">Hash Table</h1>
       <p>A <strong>Hash Table</strong> is a data structure that stores values which have keys associated with each of them. Furthermore, it supports lookup efficiently if we know the key associated with the value (It is very fast in serching the data). Hence it is very efficient in inserting and searching, irrespective of the size of the data.</p>
       <p>The Hash table data structure stores elements in key-value pairs where</p>
       <ul>
@@ -27,7 +29,7 @@ function HashTable() {
       <p>If  <code>j</code>  is the slot for multiple elements, it contains a pointer to the head of the list of elements. If no element is present,  <code>j</code>  contains  <code>NIL</code>.
         <p style={{width:'80%', margin:'0 auto'}}><img src="https://cdn.programiz.com/sites/tutorial2program/files/Hash-3_1.png" alt='hash table' /></p>
         <strong>Pseudocode for operations</strong></p>
-      <pre><code><span className="hljs-function"><span className="hljs-title">chainedHashSearch</span><span className="hljs-params">(T, k)</span></span>{"\n"}{"  "}return T[h(k)]{"\n"}<span className="hljs-function"><span className="hljs-title">chainedHashInsert</span><span className="hljs-params">(T, x)</span></span>{"\n"}{"  "}T[h(x.key)] = x <span className="hljs-comment">//insert at the head</span>{"\n"}<span className="hljs-function"><span className="hljs-title">chainedHashDelete</span><span className="hljs-params">(T, x)</span></span>{"\n"}{"  "}T[h(x.key)] = NIL{"\n"}</code></pre><h2 id="basic-operations">Basic Operations</h2>
+      <pre><code><span className="hljs-function"><span className="hljs-title">chainedHashSearch</span><span className="hljs-params">(T, k)</span></span>{"\n"}{"  "}return T[h(k)]{"\n"}<span className="hljs-function"><span className="hljs-title">chainedHashInsert</span><span className="hljs-params">(T, x)</span></span>{"\n"}{"  "}T[h(x.key)] = x <span className="hljs-comment">/insert at the head</span>{"\n"}<span className="hljs-function"><span className="hljs-title">chainedHashDelete</span><span className="hljs-params">(T, x)</span></span>{"\n"}{"  "}T[h(x.key)] = NIL{"\n"}</code></pre><h2 id="basic-operations">Basic Operations</h2>
       <ul>
         <li><p><strong>search()</strong>  − Searches an element in a hash table.</p>
         </li>
@@ -36,7 +38,7 @@ function HashTable() {
         <li><p><strong>delete()</strong>  − Deletes an element from a hash table.</p>
         </li>
       </ul>
-      <table>
+      <Table striped bordered hover style={{marginTop:'50px'}}>
         <thead>
           <tr>
             <th>Operation</th>
@@ -57,7 +59,8 @@ function HashTable() {
             <td>O(1)</td>
           </tr>
         </tbody>
-      </table>
+      </Table>
+      
       <h2 id="applications-of-hash-table">Applications of Hash Table</h2>
       <p>Hash tables are implemented where</p>
       <ul>
@@ -67,8 +70,9 @@ function HashTable() {
       </ul>
       <h2 id="implementation">Implementation</h2>
       <p><strong>Implementation of Hash Table in Java (Chaining example)</strong></p>
-    </div>
 
+      <div data-pym-src="https://www.jdoodle.com/embed/v0/3emF"></div>
+    </div>
   )
 }
 

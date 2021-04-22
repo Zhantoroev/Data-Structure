@@ -1,7 +1,8 @@
+import { Table } from 'react-bootstrap';  
 const Array = () => {
   return (
-    <div style={{width: '700px', margin:'50px auto'}}>
-      <h1 style={{fontWeight:"700"}}>Array</h1>
+    <div className='contentPage'>
+      <h1 className="mainTitle">Array</h1>
       <p>Array is a data structure used to store homogeneous elements at contiguous locations. Size of an array must be provided before storing data.</p>
     
       <h3>Creating</h3>
@@ -46,8 +47,45 @@ const Array = () => {
       <p>The dynamic array can grow and shrink in size</p>
       <img src="https://raw.githubusercontent.com/Zhantoroev/Data-Structure/main/src/assets/dinamic.png" alt="dinamic" ></img>
 
-      <h3>Time complexity</h3>
-      <img src="https://raw.githubusercontent.com/Zhantoroev/Data-Structure/main/src/assets/time.png" alt="time" ></img>
+      <h3 style={{marginTop:'50px', fontWeight:'700'}}>Time complexity</h3>
+
+      <Table striped bordered hover style={{marginTop:'30px'}}>
+        <thead>
+          <tr>
+            <th> </th>
+            <th>Static Array</th>
+            <th>Dynamic Array</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Access()</td>
+            <td>O(1)</td>
+            <td>O(1)</td>
+          </tr>
+          <tr>
+            <td>Search()</td>
+            <td>O(n)</td>
+            <td>O(n)</td>
+          </tr>
+          <tr>
+            <td>Insertion()</td>
+            <td>N/A</td>
+            <td>O(n)</td>
+          </tr>
+          <tr>
+            <td>Appending()</td>
+            <td>N/A</td>
+            <td>O(1)</td>
+          </tr>
+          <tr>
+            <td>Deletion()</td>
+            <td>N/A</td>
+            <td>O(n)</td>
+          </tr>
+        </tbody>
+      </Table>
+
     </div>
   )
 }

@@ -1,20 +1,20 @@
+import { Table } from 'react-bootstrap';
 
 const Stack = () => {
   return (
-    <div style={{width: '700px', margin:'50px auto'}}>
-      <h2 id="data-structure">Data-Structure</h2>
-      <h1 id="stack">Stack</h1>
+    <div className='contentPage'>
+      <h1 className="mainTitle">Stack</h1>
       <p>Stack is a linear data structure which follows a particular order in which the operations are performed. The order may be LIFO(Last In First Out) or FILO(First In Last Out).
         If we make an analogy with real life, Stack is similar to plates stacked over one another in the kitchen. The plate which is at the top is the first one to be removed, the plate which has been placed at the bottommost position remains in the stack for the longest period of time.</p>
       <img src="https://cdn.programiz.com/sites/tutorial2program/files/stack.png" alt="StackImg" 
         style={{border : "1px solid black", height:'400px', width:'100%', marginBottom:'30px'}} />
 
       <h2 id="basic-operations">Basic Operations</h2>
-      <table>
+      <Table striped bordered hover style={{marginTop:'50px'}}>
         <thead>
-          <tr>  
-            <th>Operations     </th>
-            <th>   Time Complexity</th>
+          <tr>
+            <th>Operation</th>
+            <th>Time Complexity</th>
           </tr>
         </thead>
         <tbody>
@@ -35,7 +35,8 @@ const Stack = () => {
             <td>O(1)</td>
           </tr>
         </tbody>
-      </table>
+      </Table>
+      
       <ul>
         <li><strong>push() :</strong>   Adds an item in the stack. If the stack is full, then it is said to be an Overflow condition.</li>
         <li><strong>pop() :</strong>   Removes an item from the stack. The items are popped in the reversed order in which they are pushed. If the stack is empty, then it is said to be an Underflow condition.</li>

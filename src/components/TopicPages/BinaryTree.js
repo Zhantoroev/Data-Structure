@@ -1,7 +1,7 @@
 const BinaryTree = () => {
   return (
-    <div style={{width: '700px', margin:'50px auto'}}>
-      <h1 style={{fontWeight: '700', margin:'20px 0 40px 0'}}>Binary Tree</h1>
+    <div className='contentPage'>
+      <h1 className="mainTitle">Binary Tree</h1>
       <p><strong>Trees:</strong> Unlike Arrays, Linked Lists, Stack and queues, which are linear data structures, trees are hierarchical data structures.
         <strong>Binary Tree:</strong> A tree whose elements have at most 2 children is called a binary tree. Since each element in a binary tree can have only 2 children, we typically name them the left and right child.</p>
       <p style={{width:'50%', margin:'0 auto'}}><img src="https://cdn.programiz.com/sites/tutorial2program/files/binary-tree_0.png" alt='tree img'/></p>

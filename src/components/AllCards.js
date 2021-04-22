@@ -1,7 +1,7 @@
 import Card from './CardPage';
 
 const cardElements = [
-  ['https://i.ytimg.com/vi/d3CeUYe7DHU/maxresdefault.jpg', 'Array', 'an array stores a fixed-size sequential collection of elements of the same type'],
+  ['https://i.ytimg.com/vi/d3CeUYe7DHU/maxresdefault.jpg', 'Array', 'An array stores a fixed-size sequential collection of elements of the same type'],
   ['https://miro.medium.com/max/527/1*pYLk9Y4iKP0kjmlfVaIbPA.png', 'Linked List', "In a linked list is a linear data structure, elements are not stored at contiguous memory"],
   ['https://holycoders.com/content/images/2020/06/Stack.png', "Stack", "A stack or LIFO (last in, first out) is an abstract data type that serves as a collection of"],
   ['https://miro.medium.com/max/2110/0*-DqxfgZhXwZ6w208.png', "Queue", "A queue or FIFO (first in, first out) is an abstract data type that serves as a collection of"],
@@ -13,9 +13,9 @@ const cardElements = [
 
 const btnType = [
   "outline-primary", "outline-secondary", "outline-success", "outline-warning",
-  "outline-danger", "outline-info", "outline-dark"]
+  "outline-danger", "outline-info", "outline-dark, outline-white"]
 
-function Main({onRouteChange}) {
+function AllCards({onRouteChange}) {
     return (
       <div style={{display: 'flex', flexWrap: 'wrap', justifyContent:'center', padding:'70px'}}>
         {CreateCard(onRouteChange)}
@@ -29,4 +29,4 @@ function CreateCard(onRouteChange) {
   })
 }
 
-export default Main;
+export default AllCards;

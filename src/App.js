@@ -1,10 +1,11 @@
 import { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navigation from './components/Navigation';
-import Main from './components/Main';
+import AllCards from './components/AllCards';
 import About from './components/About'
 import Home from './components/Home'
 import Route from './components/Route'
+import './App.css';
 
 class App extends Component{
   constructor() {
@@ -24,7 +25,7 @@ class App extends Component{
       <div className="App">
         <Navigation onRouteChange={this.onRouteChange}/>
         {
-          route === 'all' ? <Main onRouteChange={this.onRouteChange} route={route}/>
+          route === 'all' ? <AllCards onRouteChange={this.onRouteChange} route={route}/>
             : route === 'home' ? <Home /> 
             : this.state.route === 'about' ? <About />
             : <Route route={route} onRouteChange={this.onRouteChange}/>

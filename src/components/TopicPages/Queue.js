@@ -1,7 +1,9 @@
+import { Table } from 'react-bootstrap';
+
 const Queue = () => {
   return (
-    <div style={{width: '700px', margin:'50px auto'}}>
-      <h1 id="queue">Queue</h1>
+    <div className='contentPage'>
+      <h1 className="mainTitle">Queue</h1>
       <p>Queue is a linear data structure which follows a particular order in which the operations are performed. The order is <strong>F</strong>irst <strong>I</strong>n <strong>F</strong>irst <strong>O</strong>ut (FIFO). A good example of queue is any queue of consumers for a resource where the consumer that came first is served first.</p>
       <img src="https://raw.githubusercontent.com/Zhantoroev/Data-Structure/main/src/assets/queue1.png" alt="QueueImg" 
         style={{ width:'80%', margin:'30px'}} 
@@ -26,17 +28,17 @@ const Queue = () => {
         <li><strong>isFull()</strong>: Check if the queue is full</li>
         <li><strong>peek()</strong>: Get the value of the front of the queue without removing it</li>
       </ul>
-      <table>
+      <Table striped bordered hover style={{marginTop:'50px'}}>
         <thead>
           <tr>
-            <th>Operations</th>
+            <th>Operation</th>
             <th>Time Complexity</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <td>enqueue()</td>
-            <td>O(1)</td>
+            <td>(1)</td>
           </tr>
           <tr>
             <td>dequeue()</td>
@@ -51,7 +53,8 @@ const Queue = () => {
             <td>O(1)</td>
           </tr>
         </tbody>
-      </table>
+      </Table>
+      
       <h2 id="applications-of-queue">Applications of Queue</h2>
       <p>Queue is used when things don’t have to be processed immediatly, but have to be processed in <strong>F</strong>irst <strong>I</strong>n<strong>F</strong>irst <strong>O</strong>ut order.</p>
       <ul>
