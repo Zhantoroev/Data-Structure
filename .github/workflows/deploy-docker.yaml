@@ -36,4 +36,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: smz001/data-structure:test
+          tags: smz001/data-structure:latest
